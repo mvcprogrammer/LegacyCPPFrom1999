@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EMailUtils - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/EMailUtils.res" /d "NDEBUG" /d "_AFXDLL" "X:\Development\Web\Utils\EMailUtils\EMailUtils.rc"" 
+Creating temporary file "C:\DOCUME~1\nthomas.PFX\LOCALS~1\Temp\RSP254.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/EMailUtils.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"X:\Development\Web\Utils\EMailUtils\Base64Coder.cpp"
+"X:\Development\Web\Utils\EMailUtils\Buffer.cpp"
+"X:\Development\Web\Utils\EMailUtils\EMailUtils.cpp"
+"X:\Development\Web\Utils\EMailUtils\SMTP.cpp"
+"X:\Development\Web\Utils\EMailUtils\SMTPData.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\nthomas.PFX\LOCALS~1\Temp\RSP254.tmp" 
+Creating temporary file "C:\DOCUME~1\nthomas.PFX\LOCALS~1\Temp\RSP255.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/EMailUtils.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"X:\Development\Web\Utils\EMailUtils\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\nthomas.PFX\LOCALS~1\Temp\RSP255.tmp" 
+Creating temporary file "C:\DOCUME~1\nthomas.PFX\LOCALS~1\Temp\RSP256.tmp" with contents
+[
+\Release\Utils.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"\Release/EMailUtils.pdb" /machine:I386 /out:"\Release/EMailUtils.dll" /implib:"\Release/EMailUtils.lib" 
+.\Release\Base64Coder.obj
+.\Release\Buffer.obj
+.\Release\EMailUtils.obj
+.\Release\SMTP.obj
+.\Release\SMTPData.obj
+.\Release\StdAfx.obj
+.\Release\EMailUtils.res
+]
+Creating command line "link.exe @C:\DOCUME~1\nthomas.PFX\LOCALS~1\Temp\RSP256.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Base64Coder.cpp
+Buffer.cpp
+EMailUtils.cpp
+SMTP.cpp
+SMTPData.cpp
+Generating Code...
+Linking...
+   Creating library \Release/EMailUtils.lib and object \Release/EMailUtils.exp
+
+
+
+<h3>Results</h3>
+EMailUtils.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

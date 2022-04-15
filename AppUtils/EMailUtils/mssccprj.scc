@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[EMailUtils.dsp]
+SCC_Aux_Path = "\\deepankar\D\Projects\SourceSafe"
+SCC_Project_Name = "$/ACATS/AppUtils/EMAILUTILS", MIJAAAAA
+
+[EMailUtils.vcproj]
+SCC_Aux_Path = "\\deepankar\D\Projects\SourceSafe"
+SCC_Project_Name = "$/ACATS/AppUtils/EMAILUTILS", MIJAAAAA
