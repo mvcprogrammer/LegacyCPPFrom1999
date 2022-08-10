@@ -1,6 +1,6 @@
 # LegacyCPPFrom1999
 
-One of my first programming jobs was to create a daytrading platform for onsite taders with a company called "PointeDirex".
+One of my first programming jobs was to create a daytrading platform for onsite taders with a company called "PointDirex".
 
 I had no experience, and had only studied a C++ book from WROX titled "Begining C++ by Ivor Horton". But I was determined.
 
